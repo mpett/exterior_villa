@@ -3,7 +3,7 @@ import sys
 
 def gen(num_files):
 	file = open("README.md", "w")
-	file.write("# interior_villa")
+	file.write("# exterior_villa")
 	file.write("\n")
 	for x in reversed(range(1, num_files+1)):
 		file.write("![Donut Project](images/im" + str(x) + ".png)")
